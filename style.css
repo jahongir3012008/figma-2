@@ -1,0 +1,606 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteyner{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+
+.navbar_text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.navbar_text_div{
+    display: flex;
+   gap: 28px;
+}
+.navbar_text_p_div{
+    display: flex;
+    gap: 20px;
+}
+.navbar_text_h{
+   background: linear-gradient(315deg, #FF5A09 0%, #FF894E 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.navbar_text_img{
+border-radius: 4px;
+background: #08082A;
+}
+
+/* Idea */
+
+
+.idea_div{
+    display: flex;
+    gap: 200px;
+}
+
+.idea_h{
+    color: #08082A;
+    font-family: Playfair Display;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120px; 
+    width: 522px;
+    height: 360px;
+    padding-top: 112px;
+}
+
+.idea_p{
+ width: 550px;
+ color: #08082A;
+font-family: Rubik;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+opacity: 0.6;
+padding-top: 112px;
+}
+
+.idea_btn_div{
+    padding-top: 50px;
+}
+.idea_btn{
+    width: 254.25px;
+    height: 72px;
+    font-family: Rubik;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+background: linear-gradient(315deg, #FF5A09 0%, #FF894E 100%);
+}
+
+.idea_img_div{
+    padding-top: 123px;
+    background: #b8f6f64b;
+    border-radius: 70%;
+}
+
+/* Nima uchun bizni tanlaysiz */
+
+.nima_uchun_text_h_div{
+width: 323px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 30px 30px 0px 0px;
+background: #dfdddda3;
+}
+
+.nima_uchun_text_h{
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    color: #08082A;
+    font-family: Helvetica Neue LT Std;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+}
+
+.nima_uchun_card_div{
+    display: flex;
+    gap: 10px;
+   
+}
+
+.nima_uchun_card{
+     width: 510px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 0px 30px 30px 30px;
+    background: #dfdddda3;
+}
+
+.nima_uchun_card_p_div{
+    font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+}
+
+.nima_uchun_card_p{
+    padding-left: 84px;
+    background: linear-gradient(315deg, #FF5A09 0%, #FF894E 100%);
+background-clip: text;
+}
+
+.nima_uchun_card_h{
+    padding-left: 84px;
+    color: #08082A;
+font-family: Helvetica;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+}
+
+.nima_uchun_card_p_ikki_div{
+    opacity: 0.6;
+}
+
+.nima_uchun_card_p_ikki{
+    padding-left: 84px;
+    color: #08082A;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+
+.nima_uchun_card_img_div{
+    padding-top: 18px;
+    padding-left: 84px;
+}
+
+.nima_uchun_card_img{
+  width: 46px;
+height: 46px;
+flex-shrink: 0;
+} 
+/*nima uchun card ikki  */
+
+.nima_uchun_card_ikki{
+      width: 510px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 0px 30px 30px 30px;
+    background: #dfdddda3;
+}
+
+.nima_uchun_cardikki_p_div{
+ font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+
+.nima_uchun_cardikki_p_div{
+    padding-left: 84px;
+    background: linear-gradient(83deg, #4ACF8C 0%, #75EDA6 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.nima_uchun_cardikki_h{
+    padding-left: 84px;
+    color: #08082A;
+font-family: Helvetica Neue LT Std;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+}
+.nima_uchun_cardikki_p_ikki_div{
+    opacity: 0.6;
+}
+
+.nima_uchun_cardikki_p_ikki{
+    padding-left: 84px;
+    color: #08082A;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+.nima_uchun_cardikki_img_div{
+    padding-top: 18px;
+    padding-left: 84px;
+}
+.nima_uchun_cardikki_img{
+  width: 46px;
+height: 46px;
+flex-shrink: 0;
+} 
+
+/*  Ommaviy manbalar */
+
+.Ommaviy_manbalar{
+    padding-top: 142px;
+}
+
+
+.manbalar_title_h{
+    color: #08082A;
+font-family: Playfair Display;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 135%;
+}
+
+.manbalar_card_div{
+    display: flex;
+    gap: 40px;
+}
+
+.manbalar_card{
+    padding-top: 60px;
+}
+
+.manbalar_card_h{
+    color: #08082A;
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; 
+}
+
+.manbalar_card_p_div{
+    padding-top: 12px;
+}
+
+.manbalar_card_p{
+    color: #08082A;
+    opacity: 0.6;
+}
+
+.manbalar_card_img_div{
+    padding-top: 36px;
+}
+
+.manbalar_card_narxi_div{
+    padding-top: 20px;
+    padding-left: 60px
+}
+.manbalar_card_narxi{
+    display: flex;
+    gap: 70px;
+    width: 220px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF2E4;
+}
+
+.manbalar_card_narxi_p{
+color: #FF5B2E;
+font-family: Rubik;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.manbalar_card_narxi_p_div{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.manbalar_card_narxi_btn{
+    width: 56px;
+height: 38px;
+flex-shrink: 0;
+border-radius: 10px;
+color: aliceblue;
+background: #08082A;
+}
+
+.manbalar_card_narxi_btn_div{
+    padding-top: 10px;
+}
+
+/* manbalar card ikki */
+
+.manbalar_cardikki_narxi_div{
+    padding-top: 20px;
+    padding-left: 60px
+}
+.manbalar_cardikki_narxi{
+    display: flex;
+    gap: 70px;
+    width: 220px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #E4F7FF;
+}
+
+.manbalar_cardikki_narxi_p{
+color: #00AEBF;
+font-family: Rubik;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.manbalar_cardikki_narxi_p_div{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.manbalar_cardikki_narxi_btn{
+    width: 56px;
+height: 38px;
+flex-shrink: 0;
+border-radius: 10px;
+color: aliceblue;
+background: #08082A;
+}
+
+.manbalar_cardikki_narxi_btn_div{
+    padding-top: 10px;
+}
+/* manbalar card uch */
+.manbalar_carduch_narxi_div{
+    padding-top: 20px;
+    padding-left: 60px
+}
+.manbalar_carduch_narxi{
+    display: flex;
+    gap: 70px;
+    width: 220px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFE5E5;
+}
+
+.manbalar_carduch_narxi_p{
+color: #F90;
+font-family: Rubik;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.manbalar_carduch_narxi_p_div{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.manbalar_carduch_narxi_btn{
+    width: 56px;
+height: 38px;
+flex-shrink: 0;
+border-radius: 10px;
+color: aliceblue;
+background: #08082A;
+}
+
+.manbalar_carduch_narxi_btn_div{
+    padding-top: 10px;
+}
+
+/* svaper */
+
+.svaper{
+    padding-top: 140px;
+}
+
+.svaper_card_div{
+    display: flex;
+    gap: 36px;
+}
+
+.svaper_card_img{
+    width: 590px;
+height: 358px;
+flex-shrink: 0;
+}
+
+.svaper_card_h_div{
+    padding-top: 18px;
+}
+
+.svaper_card_h{
+    color: #08082A;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; 
+}
+
+.svaper_card_p{
+    width: 571px;
+    opacity: 0.6;
+}
+
+/* Mutahasist */
+
+.suhbat{
+    padding-top: 140px;
+}
+.suhbat_div{
+    width:1210px;
+height: 368px;
+flex-shrink: 0;
+border-radius: 30px;
+background: linear-gradient(315deg, #FF5A09 0%, #FF894E 100%);
+}
+
+.suhbat_text_h_div{
+    padding-top: 81px;
+}
+.suhbat_text_h{
+color: #FFF;
+text-align: center;
+font-family: Playfair Display;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; 
+text-transform: capitalize;
+}
+.suhbat_text_btn_div{
+    padding-top: 30px;
+    padding-left: 440px;
+}
+
+.suhbat_text_btn{
+width: 307px;
+height: 84px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+color: #08082A;
+text-align: center;
+font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; 
+}
+
+/* Tugadi */
+
+.tugadi{
+    padding-top: 140px;
+}
+
+.tugadi_card{
+    display: flex;
+    gap: 10px;
+}
+
+.tugadi_card_bir{
+width: 450px;
+height: 433px;
+flex-shrink: 0;
+ border-radius: 30px 30px 0px 0px;
+background: #f4f3f3;
+}
+
+
+.tugadi_card_bir_h_div{
+    padding-top: 100px;
+    padding-left: 56px;
+}
+.tugadi_card_bir_h{
+    font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; 
+text-transform: capitalize;
+background: linear-gradient(315deg, #FF5A09 0%, #FF894E 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.tugadi_card_bir_p_div{
+    padding-top: 48px;
+    padding-left: 56px;
+}
+
+.tugadi_card_bir_p{
+    width: 400px;
+    color: #08082A;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+
+.tugadi_card_bir_img_title_h{
+    color: #08082A;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; 
+}
+
+.tugadi_card_bir_img_title{
+    padding-top: 80px;
+    padding-left: 56px;
+}
+
+.tugadi_card_bir_img{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 56px;
+}
+
+/* tugadi card ikki */
+.tugadi_card_ikki{
+    width: 300px;
+    height: 400px;
+    border-radius: 40px;
+    background-color: #f4f3f3;
+}
+
+.tugadi_card_ikki_text_h_div{
+    padding-top: 110px;
+    padding-left: 56px;
+}
+.tugadi_card_ikki_text_h{
+    color: #08082A;
+font-family: Playfair Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; 
+}
+
+.tugadi_card_ikki_text_pbir{
+    color: #08082A;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 200%; 
+opacity: 0.5;
+}
+
+.tugadi_card_ikki_text_pbir_div{
+    padding-top: 12px;
+    padding-left: 56px;
+}
+
+
+
+
+.swiper {
+  width: 800px;
+  height: 800px;
+}
